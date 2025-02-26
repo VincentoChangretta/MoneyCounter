@@ -1,0 +1,17 @@
+@use "./reset.scss";
+@use "./themes/dark.scss";
+@use "./themes/light.scss";
+@use "./variables/global.scss";
+
+.app {
+    background: var(--main-bg);
+    color: var(--main-bg-inv);
+    font: var(--font-m);
+    min-height: 100svh;
+}
+
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 10px;
+}

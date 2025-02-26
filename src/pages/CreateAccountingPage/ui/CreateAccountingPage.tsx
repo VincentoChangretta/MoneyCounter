@@ -1,0 +1,9 @@
+
+
+export const CreateAccountingPage = () => {
+  return (
+    <>
+        
+    </>
+  );
+}

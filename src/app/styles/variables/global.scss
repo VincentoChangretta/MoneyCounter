@@ -1,0 +1,26 @@
+:root{
+
+    --main-ff: "Outline", "Montserrat", sans-serif;
+    --font-size-s: 16px;
+    --font-size-m: 22px;
+    --font-size-l: 28px;
+
+    --font-line-s: 24px;
+    --font-line-m: 30px;
+    --font-line-l: 36px;
+
+
+    --font-s: var(--font-size-s) / var(--font-line-s) var(--main-ff);
+    --font-l: var(--font-size-l) / var(--font-line-l) var(--main-ff);
+    --font-m: var(--font-size-m) / var(--font-line-m) var(--main-ff);
+
+
+
+    --header-height: 100px;
+
+
+    --std-Radius: 30px;
+
+
+    --toggleBtnSlider-size: 30px;
+}

@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+input, button{
+    font-size: inherit;
+    border: none;
+    outline: 1px solid transparent;
+    width: 100%;
+}
