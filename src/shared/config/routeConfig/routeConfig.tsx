@@ -1,4 +1,5 @@
 import { CreateAccountingPage } from "pages/CreateAccountingPage"
+import { MainPage } from "pages/MainPage"
 import { RouteProps } from "react-router-dom"
 
 export enum Routes {
@@ -14,7 +15,7 @@ export const routePath: Record<Routes, string> = {
 export const routeConfig: Record<Routes, RouteProps> = {
   [Routes.MAIN]: {
     path: routePath.main,
-    element: null
+    element: <MainPage/>
   },
   [Routes.CREATOR]: {
     path: routePath.creator,

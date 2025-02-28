@@ -1,16 +1,18 @@
 import { classNames } from 'shared/lib/classNames/classNames';
 import cls from './Logo.module.scss'
+import { Link } from 'react-router-dom';
 
 interface LogoProps{
-    href: string
+    path: string
   className?: string
 }
 
 export const Logo = (props: LogoProps) => {
-  const {href, className} = props
+  const {path, className} = props
+
   return (
-    <a href={href} className={classNames(cls.logo, {}, [className],)}>
-      MC
-    </a>
+    <Link to={path} className={classNames(cls.logo, {}, [className],)}>
+      SpendSmart
+    </Link>
   );
 }

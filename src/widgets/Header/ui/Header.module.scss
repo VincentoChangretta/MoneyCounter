@@ -1,5 +1,5 @@
 .header {
-    background: var(--main-bg-light);
+    margin-bottom: 100px;
 }
 
 .inner {
@@ -7,9 +7,19 @@
     justify-content: space-between;
     align-items: center;
     min-height: var(--header-height);
+    border-radius: var(--std-Radius);
+    padding: var(--std-padding);
 }
 
-.navList{
+.functional {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+    flex-grow: 1;
+}
+
+.navList {
     display: flex;
     align-items: center;
     gap: 30px;

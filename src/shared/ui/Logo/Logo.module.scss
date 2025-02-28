@@ -1,5 +1,10 @@
 .logo {
-    font-size: 55px;
+    font-size: var(--font-size-logo);
     font-weight: 700;
     color: var(--main-bg-inv);
+}
+
+.growed{
+    flex-grow: 1;
+    flex-basis: 0;
 }

@@ -1,4 +1,3 @@
-import { CreateAccountingPage } from "./ui/CreateAccountingPage";
+import { CreateAccountingPageAsync } from "./ui/CreateAccountingPage.async";
 
-export {
-  CreateAccountingPage}
+export {CreateAccountingPageAsync as CreateAccountingPage}

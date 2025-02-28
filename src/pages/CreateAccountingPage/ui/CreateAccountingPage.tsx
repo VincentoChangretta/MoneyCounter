@@ -1,10 +1,11 @@
 import { AccountingCreatorSeciton } from "./sections/AccoutingCreatorSection.tsx/AccountingCreatorSeciton";
 
-
-export const CreateAccountingPage = () => {
+const CreateAccountingPage = () => {
   return (
     <>
       <AccountingCreatorSeciton/>
     </>
   );
 }
+
+export default CreateAccountingPage

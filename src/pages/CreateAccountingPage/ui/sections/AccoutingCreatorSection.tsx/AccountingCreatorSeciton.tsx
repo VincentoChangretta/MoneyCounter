@@ -9,7 +9,6 @@ export const AccountingCreatorSeciton = ({className}: AccountingCreatorSecitonPr
   return (
     <section className={classNames(cls.AccountingCreatorSeciton, {}, [className])}>
       <div className="container">
-        <h2 className='title'>Управляй доходами и расходами гикбо</h2>
         <div className={classNames(cls.inner)}>
           <section className={classNames(cls.accountingBox)}>
             <nav className={classNames(cls.nav)}>

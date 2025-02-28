@@ -6,10 +6,10 @@ export enum ButtonTheme {
     OUTLINE = "outline",
     OUTLINE_RADIUS = "outlineRadius",
     FULL = "full",
-    FULL_RADIUS = "full_radius",
+    FULL_RADIUS = "fullRadius",
     SQUARE = "square",
     CIRCLE = "circle",
-    TOGGLE_THEME="toggleTheme"
+    TOGGLE_THEME="toggleTheme",
 } 
 
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement>{

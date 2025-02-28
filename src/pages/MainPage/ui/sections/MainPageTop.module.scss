@@ -1,0 +1,10 @@
+.titleBox {
+    margin-bottom: var(--std-marginBottom);
+}
+
+.titleBox p {
+    max-width: 1200px;
+    text-wrap: balance;
+    text-align: center;
+    margin: 0 auto;
+}

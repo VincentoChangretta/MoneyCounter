@@ -2,6 +2,7 @@
 @use "./themes/dark.scss";
 @use "./themes/light.scss";
 @use "./variables/global.scss";
+@use "./specialClasses/specialClasses.scss";
 
 .app {
     background: var(--main-bg);
@@ -11,12 +12,21 @@
 }
 
 .container {
-    max-width: 1920px;
+    max-width: 1820px;
     margin: 0 auto;
     padding: 0 10px;
 }
 
-.title{
+.main-title {
+    max-width: 1600px;
+    font-size: 65px;
+    line-height: 83px;
+    text-wrap: balance;
+    text-align: center;
+    margin: 0 auto 50px;
+}
+
+.title {
     font: var(--font-l);
     font-weight: 700;
     margin-bottom: var(--std-titleMb);
