@@ -24,4 +24,9 @@
     --small-Radius: calc(var(--std-Radius) - var(--std-padding));
     --toggleBtnSlider-size: 30px;
 
+
+    // z-index
+
+    --modalBg-zIndex: 9000;
+
 }

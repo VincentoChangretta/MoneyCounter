@@ -4,9 +4,11 @@ import { AppRouter } from "./routers/AppRouter";
 
 export const App = () => {
   const { theme} = useTheme()
+
   return (
     <div className={`app ${theme}`}>
       <Header/>
+
       <main>
         <AppRouter/>
       </main>

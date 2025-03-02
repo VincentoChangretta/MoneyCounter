@@ -30,8 +30,15 @@
     color: var(--main-bg);
 }
 
+.fullInv,
+.fullRadiusInv {
+    background: var(--main-bg);
+    color: var(--main-bg-inv);
+}
+
 .outlineRadius,
-.fullRadius {
+.fullRadius,
+.fullRadiusInv {
     border-radius: var(--std-Radius);
 }
 
@@ -53,4 +60,3 @@
     height: calc(var(--toggleBtnSlider-size) + 6px);
     border-radius: var(--std-Radius);
 }
-

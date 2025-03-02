@@ -7,6 +7,8 @@ export enum ButtonTheme {
     OUTLINE_RADIUS = "outlineRadius",
     FULL = "full",
     FULL_RADIUS = "fullRadius",
+    FULL_INV = "fullInv",
+    FULL_RADIUS_INV = "fullRadiusInv",
     SQUARE = "square",
     CIRCLE = "circle",
     TOGGLE_THEME="toggleTheme",
