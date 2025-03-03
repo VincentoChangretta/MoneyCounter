@@ -1,0 +1,61 @@
+.select {
+    padding: 12px 20px;
+    position: relative;
+    cursor: pointer;
+    color: var(--main-bg);
+    background: var(--main-bg-inv);
+    border-radius: var(--std-Radius) var(--std-Radius) 0 0;
+}
+
+.inInput {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    translate: 0 -50%;
+    width: 100%;
+}
+
+.sizeSmall {
+    max-width: 90px;
+}
+
+.sizeMiddle {
+    max-width: 240px;
+}
+
+.sizeLarge {
+    max-width: 340px;
+}
+
+.sizeContent {
+    max-width: fit-content;
+}
+
+.selectList {
+    padding: 10px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    color: var(--main-bg);
+    background: var(--main-bg-inv-light);
+    transition: var(--std-transition);
+    clip-path: inset(0 0 100% 0);
+    border-radius: 0 0 var(--std-Radius) var(--std-Radius);
+}
+
+.active {
+    clip-path: inset(0 0 0 0);
+}
+
+.selectListItem {
+    padding: 10px;
+}
+
+.selectListItem:hover {
+    background-color: var(--main-bg-inv-doubleLight);
+}
+
+.lastItem {
+    border-radius: 0 0 20px 20px;
+}

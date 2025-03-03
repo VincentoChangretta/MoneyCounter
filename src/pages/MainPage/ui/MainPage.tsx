@@ -1,13 +1,13 @@
-import { Counter } from "enteties/Counter/ui/Counter";
-import { MainPageTop } from "./sections/MainPageTop";
+import { Counter } from 'enteties/Counter/ui/Counter';
+import { MainPageTop } from './sections/MainPageTop';
 
 const MainPage = () => {
   return (
     <>
-      <MainPageTop/>
-      <Counter/>
+      <MainPageTop />
+      <Counter />
     </>
   );
-}
+};
 
-export default MainPage
+export default MainPage;

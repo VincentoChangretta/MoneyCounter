@@ -1,10 +1,11 @@
 .inputBox {
     padding: var(--std-padding);
-    border-radius: var(--std-Radius);
     background-color: var(--main-bg-inv-light);
+    border-radius: var(--small-Radius);
 }
 
 .input {
     background: transparent;
     padding-left: 10px;
+    color: var(--main-bg);
 }

@@ -1,11 +1,11 @@
-import { AccountingCreatorSeciton } from "./sections/AccoutingCreatorSection.tsx/AccountingCreatorSeciton";
+import { AccountingCreatorSeciton } from './sections/AccoutingCreatorSection.tsx/AccountingCreatorSeciton';
 
 const CreateAccountingPage = () => {
   return (
     <>
-      <AccountingCreatorSeciton/>
+      <AccountingCreatorSeciton />
     </>
   );
-}
+};
 
-export default CreateAccountingPage
+export default CreateAccountingPage;

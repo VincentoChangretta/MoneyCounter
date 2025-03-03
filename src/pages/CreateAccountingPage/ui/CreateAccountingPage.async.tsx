@@ -1,4 +1,3 @@
-import { lazy } from "react"
+import { lazy } from 'react';
 
-
-export const CreateAccountingPageAsync = lazy(() => import("./CreateAccountingPage"))
+export const CreateAccountingPageAsync = lazy(() => import('./CreateAccountingPage'));

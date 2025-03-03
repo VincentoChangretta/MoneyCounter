@@ -1,3 +1,3 @@
-import { BudgetTrackerCrator } from "./ui/BudgetTrackerCreator";
+import { BudgetTrackerCrator } from './ui/BudgetTrackerCreator';
 
-export {BudgetTrackerCrator}
+export { BudgetTrackerCrator };

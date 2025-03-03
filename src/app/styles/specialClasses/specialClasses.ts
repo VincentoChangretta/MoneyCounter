@@ -1,4 +1,4 @@
-const GROW_NO_BASIS = "grow-no-basis"
-const MARGIN_X_AUTO = "margin-x-auto"
+const GROW_NO_BASIS = 'grow-no-basis';
+const MARGIN_X_AUTO = 'margin-x-auto';
 
-export {GROW_NO_BASIS, MARGIN_X_AUTO}
+export { GROW_NO_BASIS, MARGIN_X_AUTO };

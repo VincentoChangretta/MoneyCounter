@@ -1,4 +1,3 @@
-import { CounterSchema } from "./model/types/counterSchema";
+import { CounterSchema } from './model/types/counterSchema';
 
-
-export {CounterSchema}
+export { CounterSchema };

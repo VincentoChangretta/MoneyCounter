@@ -8,13 +8,13 @@ export const useInput = (initialValue = '') => {
   };
 
   const reset = () => {
-    setValue("")
-  }
+    setValue('');
+  };
 
   return {
     value,
     onChange: handleChange,
     setValue,
-    reset
+    reset,
   };
 };
